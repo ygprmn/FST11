@@ -1,1 +1,70 @@
- 
+ - Initialize a repository
+git init 
+
+- Configure the username in git
+git config user.name "GitHub Username"
+
+- Configure the email in git
+git config user.email "GitHub Email"
+
+- Check configured username in git
+git config user.name
+
+- Check configured email in git
+git config user.email
+
+- Check the status of change in files/folders
+git status
+
+- Add all untracked files to the staging area
+git add .
+
+- Commit files from staging area
+git commit -m "description of your change"
+
+Legends
+U - untracked
+A - added
+M - modified
+D - deleted
+R - renamed
+
+- Show commit history
+git log
+
+- Show commit history (summarized)
+git log --oneline
+
+- Create a branch
+git branch "branch name"
+
+- List all branches
+git branch -a
+
+- Switch to a different branch
+git switch "branch name" Note: may not work for older versions
+git checkout "branch name"
+
+- Clear terminal commands
+clear
+
+- Merge feature branch to master/main branch
+git merge "branch name"
+
+- Delete branch
+git branch -d "branch name"
+
+- Add a remote to local repository
+git remote add origin "repository-url"
+
+- Set branch to main
+git branch -M main
+
+- Push local repository to remote repository (first time push)
+git push -u origin main
+
+- Confirm connection to remote repository
+git remote -v
+
+- Push local repository to remote repostory once establish connection
+git push
